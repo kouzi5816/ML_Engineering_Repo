@@ -67,48 +67,11 @@ GithubでのMLOpsの学習に向けて、Claudeに相談してGithubの使い方
 
 ❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
 ```
-.
-├── .devcontainer
-│   └── devcontainer.json
-├── .env
-├── .github
-│   ├── action
-│   ├── release-drafter.yml
-│   └── workflows
-├── .gitignore
-├── Makefile
-├── README.md
-├── backend
-│   ├── .vscode
-│   ├── application
-│   ├── docs
-│   ├── manage.py
-│   ├── output
-│   ├── poetry.lock
-│   ├── project
-│   └── pyproject.toml
-├── containers
-│   ├── django
-│   ├── front
-│   ├── mysql
-│   └── nginx
-├── docker-compose.yml
-├── frontend
-│   ├── .gitignore
-│   ├── README.md
-│   ├── __test__
-│   ├── components
-│   ├── features
-│   ├── next-env.d.ts
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── pages
-│   ├── postcss.config.js
-│   ├── public
-│   ├── styles
-│   ├── tailwind.config.js
-│   └── tsconfig.json
-└── infra
+dx-portfolio/
+├── README.md          # 自己紹介と成果物一覧
+├── month1-mlflow/     # MLflow の実装
+├── month1-fastapi/    # FastAPI の実装
+└── month2-rag/        # 来月のRAG（先に作っておく）
     ├── .gitignore
     ├── docker-compose.yml
     ├── main.tf
