@@ -38,7 +38,7 @@ DX-PortfolioのRepository
 
 ## プロジェクトについて
 
-GithubでのMLOpsの学習に向けて、Claudeに相談してGithubの使い方を学習しつつ構築した。
+GithubでのMLOpsの学習に向けて、Claudeに相談してGithubの使い方を学習しつつ構築しました。
 
 (<a href="#top">トップへ</a>)</p>
 
@@ -65,7 +65,7 @@ GithubでのMLOpsの学習に向けて、Claudeに相談してGithubの使い方
 
 <!-- Treeコマンドを使ってディレクトリ構成を記載 -->
 
-❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
+本リポジトリは、以下のような構成になっています。
 ```
 dx-portfolio/
 ├── README.md          # 自己紹介と成果物一覧
@@ -83,7 +83,7 @@ dx-portfolio/
 
 ## 開発環境構築
 
-<!-- コンテナの作成方法、パッケージのインストール方法など、開発環境構築に必要な情報を記載 -->
+Google Colab上で作成しました。
 
 ### 環境変数の一覧
 
