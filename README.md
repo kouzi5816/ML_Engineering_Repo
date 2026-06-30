@@ -102,5 +102,11 @@ Google Colab上で作成しました。
 | DJANGO_SETTINGS_MODULE | Django アプリケーションの設定モジュール   | project.settings.local             | project.settings.dev                     |
 
 
-
 <p align="right">(<a href="#top">トップへ</a>)</p>
+
+## 学習記録
+
+### 目的
+
+
+### 学んだこと
