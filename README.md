@@ -66,6 +66,7 @@ GithubでのMLOpsの学習に向けて、Claudeに相談してGithubの使い方
 <!-- Treeコマンドを使ってディレクトリ構成を記載 -->
 
 ❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
+```
 .
 ├── .devcontainer
 │   └── devcontainer.json
@@ -114,6 +115,7 @@ GithubでのMLOpsの学習に向けて、Claudeに相談してGithubの使い方
     ├── network.tf
     └── variables.tf
 
+```
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
 ## 開発環境構築
