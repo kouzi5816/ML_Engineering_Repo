@@ -15,7 +15,7 @@ GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 @st.cache_resource
 def load_chain():
     embedding = GoogleGenerativeAIEmbeddings(
-        model="models/embedding-001",
+        model="models/gemini-embedding-001",
         google_api_key=GEMINI_API_KEY
     )
     vectorstore = Chroma(
@@ -23,7 +23,7 @@ def load_chain():
         embedding_function=embedding
     )
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",
+        model="models/gemini-2.5-flash",
         google_api_key=GEMINI_API_KEY
     )
     prompt = ChatPromptTemplate.from_template("""
