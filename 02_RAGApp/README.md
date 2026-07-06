@@ -43,7 +43,7 @@ LangChain・ChromaDB・Gemini APIを使ったRAG（Retrieval-Augmented Generatio
 | カテゴリ | 使用技術 |
 |----------|----------|
 | LLM | Gemini 2.5 Flash（Google AI Studio） |
-| Embedding | Gemini text-embedding-004 |
+| Embedding | Gemini text-embedding-001 |
 | RAGフレームワーク | LangChain |
 | ベクトルDB | ChromaDB（インメモリ） |
 | PDFローダー | PyPDFLoader（langchain-community） |
