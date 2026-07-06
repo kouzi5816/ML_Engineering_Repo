@@ -1,7 +1,0 @@
-﻿langchain
-langchain-google-genai
-langchain-chroma
-langchain-community
-pypdf
-streamlit
-chromadb
